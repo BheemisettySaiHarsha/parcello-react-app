@@ -60,6 +60,75 @@ const AppLayout = () => {
   );
 };
 
+// const appRouter = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <AppLayout/>,
+//     errorElement: <Err/>, 
+//     children: [
+//       {
+//         path: "/",
+//         element: <Body/>
+//       },
+//       {
+//         path: "/about",
+//         element: <About/>
+//       },
+//       {
+//         path: "/contact",
+//         element: <Contact/>
+//       },
+//       {
+//         path: "/restaurant/:resId",
+//         element: <RestaurantMenu/>
+//       },
+//       {
+//         path: "/grocery",
+//         element: <Suspense fallback={<Shimmer/>}><Grocery/></Suspense>
+//       },
+//       {
+//         path: "/cart",
+//         element: <Cart/>
+//       },
+//       {
+//         path: "/login",
+//         element: <Login/>
+//       },
+//       {
+//   path: "/checkout",
+//   element: <Checkout/>
+// },
+// {
+//   path: "/order-success", 
+//   element: <OrderSuccess/>
+// },
+// {
+//   path: "/company",
+//   element: <Company/>
+// },
+// {
+//   path: "/contact-us",
+//   element: <ContactUs/>
+// },
+// {
+//   path: "/legal",
+//   element: <Legal/>
+// },
+// {
+//   path: "/life-at-parcello",
+//   element: <LifeAtParcello/>
+// },
+// {
+//   path: "/privacy-policy",
+//   element: <PrivacyPolicy/>
+// },
+// {
+//   path: "/terms-of-service",
+//   element: <TermsOfService/>
+// }
+//     ]
+//   }
+// ]);
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -95,37 +164,42 @@ const appRouter = createBrowserRouter([
         element: <Login/>
       },
       {
-  path: "/checkout",
-  element: <Checkout/>
-},
-{
-  path: "/order-success", 
-  element: <OrderSuccess/>
-},
-{
-  path: "/company",
-  element: <Company/>
-},
-{
-  path: "/contact-us",
-  element: <ContactUs/>
-},
-{
-  path: "/legal",
-  element: <Legal/>
-},
-{
-  path: "/life-at-parcello",
-  element: <LifeAtParcello/>
-},
-{
-  path: "/privacy-policy",
-  element: <PrivacyPolicy/>
-},
-{
-  path: "/terms-of-service",
-  element: <TermsOfService/>
-}
+        path: "/checkout",
+        element: <Checkout/>
+      },
+      {
+        path: "/order-success", 
+        element: <OrderSuccess/>
+      },
+      {
+        path: "/company",
+        element: <Company/>
+      },
+      {
+        path: "/contact-us",
+        element: <ContactUs/>
+      },
+      {
+        path: "/legal",
+        element: <Legal/>
+      },
+      {
+        path: "/life-at-parcello",
+        element: <LifeAtParcello/>
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy/>
+      },
+      {
+        path: "/terms-of-service",
+        element: <TermsOfService/>
+      },
+      // Add this catch-all route at the end
+      {
+        path: "*",
+        element: <Err/>
+      }
     ]
   }
 ]);

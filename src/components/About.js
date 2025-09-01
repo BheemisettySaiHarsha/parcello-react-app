@@ -1,4 +1,5 @@
 // components/About.js
+import { LOGO_URL } from "../utils/constants";
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -31,9 +32,9 @@ const About = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <div className="w-80 h-80 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl flex items-center justify-center text-8xl">
-              🍕
-            </div>
+            <div className="w-80 h-80 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl flex items-center justify-center">
+  <img src={LOGO_URL} alt="Parcello Logo" className="w-40 h-40 object-contain" />
+</div>
           </div>
         </div>
 
