@@ -3,10 +3,10 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/BheemisettySaiHarsha/mlproject/main/parcello.jpg" alt="Parcello Logo" width="120" height="120" />
   <p><strong>A full-stack food delivery application built with React and Node.js</strong></p>
-  <a href="https://your-app.vercel.app">
+  <a href="https://parcello-react-app.vercel.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge" alt="Live Demo" />
   </a>
-  <a href="https://github.com/saiharshabheemisetty">
+  <a href="https://github.com/BheemisettySaiHarsha/parcello-react-app">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
 </div>
@@ -21,7 +21,6 @@
 - [🚀 Getting Started](#-getting-started)
 - [📱 Usage](#-usage)
 - [🌐 Deployment](#-deployment)
-- [📸 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [📞 Contact](#-contact)
@@ -269,28 +268,8 @@ Your app should now be running at:
 
 ---
 
-## 📸 Screenshots
 
-<div align="center">
 
-### 🏠 Homepage
-*Browse restaurants and discover new cuisines*
-
-### 🍽️ Restaurant Menu
-*Detailed menu with rich food imagery*
-
-### 🛒 Shopping Cart
-*Review orders with smart cart management*
-
-### 💳 Checkout Process
-*Secure payment with multiple options*
-
-### 📱 Mobile Experience
-*Fully responsive design for all devices*
-
-</div>
-
----
 
 ## 🤝 Contributing
 
