@@ -127,11 +127,11 @@ Make sure you have the following installed:
 
 ```bash
 # Clone frontend (React app)
-git clone https://github.com/saiharshabheemisetty/parcello-react-app.git
+git clone https://github.com/BheemisettySaiHarsha/parcello-react-app.git
 cd parcello-react-app
 
 # Clone backend (Node.js server)
-git clone https://github.com/saiharshabheemisetty/parcello-server.git
+git clone https://github.com/BheemisettySaiHarsha/parcello-server.git
 cd parcello-server
 ```
 
