@@ -1,4 +1,4 @@
-import ItemList from "./ItemList";
+import ItemList from "./itemList";
 
 const RestaurantCategory = ({ data, isExpanded, onToggle }) => {
   const itemCount = data?.itemCards?.length || 0;
